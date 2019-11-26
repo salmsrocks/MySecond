@@ -1,7 +1,7 @@
 # You may need to edit these variables to match your config
 db_password= "password"
 ecs_cluster="film_ratings_cluster"
-ecs_key_pair_name="film_ratings_key_pair"
+ecs_key_pair_name="capstone"
 region= "us-east-1"
 film_ratings_app_image= "chrishowejones/film-ratings-app:latest"
 
