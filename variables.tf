@@ -22,7 +22,7 @@ variable "region" {
 variable "availability_zone" {
   description = "availability zone used for the film ratings, based on region"
   default = {
-    eu-west-1 = "eu-west-1"
+    eu-east-1 = "eu-east-1"
   }
 }
 
