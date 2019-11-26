@@ -1,10 +1,9 @@
 # main creds for AWS connection
-variable "aws_access_key_id" {
-  description = "AWS access key"
-}
 
-variable "aws_secret_access_key" {
-  description = "AWS secret access key"
+
+variable "key_name" {
+  description = "Private key name to use with instance"
+  default     = "capstone"
 }
 
 variable "ecs_cluster" {
